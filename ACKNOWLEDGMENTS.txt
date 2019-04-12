@@ -1,0 +1,7 @@
+Please copy this if you reuse part or the totality of this project:
+
+The code used here is notably based on the experimental videogame Tevi,
+created by the MetaMakers Institute of Falmouth University. 
+Project funded by the European Commission ERA Chair grant; an EPSRC Leadership Fellowship; and an EPSRC Next Step Digital Economy Hub grant.
+Code written by: Edwige Lelievre, Giovanni Rubino and Tim Philipps.
+Created in partnership with the Eden Project.
