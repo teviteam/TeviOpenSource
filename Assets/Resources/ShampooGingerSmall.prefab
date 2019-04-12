@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1232073900753290}
+  m_IsPrefabAsset: 1
+--- !u!1 &1232073900753290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4617326617640896}
+  - component: {fileID: 33380595930869040}
+  - component: {fileID: 23359199557066224}
+  - component: {fileID: 114055511111582034}
+  - component: {fileID: 114959341568384142}
+  m_Layer: 0
+  m_Name: ShampooGingerSmall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4617326617640896
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232073900753290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.07, y: 0.07, z: 0.07}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23359199557066224
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232073900753290}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 5223cf0967a8c0143ac06910ccd99f96, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33380595930869040
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232073900753290}
+  m_Mesh: {fileID: 4300000, guid: b5c68efa6c961a640a4e2cb80540acca, type: 3}
+--- !u!114 &114055511111582034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232073900753290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e32033e06a4914bacef78515ea2f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantName: ShampooGinger
+  plantPrefabName: ShampooGingerSmall
+  timeBeforeMature: 3
+  timeBeforeFruit: 3
+  timeToGatherFruit: 1
+  timeBeforeDeath: 3
+  fruitCycles: 1
+  averageHeight: 1.5
+  averageSize: 1
+  matureForm: {fileID: 1146308783107756, guid: 462800cf050739c49a0135404150e254, type: 2}
+  fruit: {fileID: 1726367141170944, guid: d92536a6a9dd6db42b4444b833e0d899, type: 2}
+  babySucker: {fileID: 1609413259039358, guid: 2deb15c74b085924ab62758f493cedba, type: 2}
+  healthyPlantMaterial: {fileID: 2100000, guid: 5223cf0967a8c0143ac06910ccd99f96,
+    type: 2}
+  mediumPlantMaterial: {fileID: 2100000, guid: f71a1b9a49da75040acbb91b4c594ab0, type: 2}
+  badPlantMaterial: {fileID: 2100000, guid: fafba4cc9a22cf046a5b093791c6fa46, type: 2}
+  miniHappyWater: 30
+  maxHappyWater: 40
+  miniHappyNutrient: 40
+  maxHappyNutrient: 50
+  miniHappyNeigbours: 4
+  maxHappyNeigbours: 8
+  happyWaterConsumption: 3
+  okWaterConsumption: 2
+  badWaterConsumption: 1
+  happyNutrientConsumption: 3
+  okNutrientConsumption: 2
+  badNutrientConsumption: 1
+  miniFruitOk: 1
+  maxFruitOk: 3
+  miniFruitHappy: 2
+  maxFruitHappy: 7
+  miniSeedOk: 1
+  maxSeedOk: 3
+  miniSeedHappy: 2
+  maxSeedHappy: 5
+  miniCuttingOk: 1
+  maxCuttingOk: 3
+  miniCuttingHappy: 2
+  maxCuttingHappy: 5
+  replantsItself: 1
+  plantHappiness: 0
+  myMatureForm: {fileID: 0}
+  isMature: 0
+  isFruit: 0
+  myFruitsList: []
+  myCuttingList: []
+  lifetime: 7
+--- !u!114 &114959341568384142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232073900753290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ddcb70295fa2f49b3523d00e2a981f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: 0
+  fuel: 0.3
+  construction: 0
+  medicine: 0.7
+  culture: 0.5

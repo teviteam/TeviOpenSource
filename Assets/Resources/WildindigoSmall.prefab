@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1027774551338050}
+  m_IsPrefabAsset: 1
+--- !u!1 &1027774551338050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4291054747148718}
+  - component: {fileID: 33647409598342910}
+  - component: {fileID: 23679104431686020}
+  - component: {fileID: 114714422425813114}
+  - component: {fileID: 114693149109871380}
+  m_Layer: 0
+  m_Name: WildindigoSmall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4291054747148718
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1027774551338050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23679104431686020
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1027774551338050}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 5223cf0967a8c0143ac06910ccd99f96, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33647409598342910
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1027774551338050}
+  m_Mesh: {fileID: 4300000, guid: 4465c01aff2a0a14199dcde76dba32a3, type: 3}
+--- !u!114 &114693149109871380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1027774551338050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ddcb70295fa2f49b3523d00e2a981f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  food: 0
+  fuel: 0.5
+  construction: 0
+  medicine: 0.3
+  culture: 0.5
+--- !u!114 &114714422425813114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1027774551338050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e32033e06a4914bacef78515ea2f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantName: WildindigoPlant
+  plantPrefabName: WildindigoSmall
+  timeBeforeMature: 5
+  timeBeforeFruit: 3
+  timeToGatherFruit: 5
+  timeBeforeDeath: 5
+  fruitCycles: 10
+  averageHeight: 1.5
+  averageSize: 0.5
+  matureForm: {fileID: 1017399835722576, guid: a1f83d8e93b402a4b9f1bf25178b0f37, type: 2}
+  fruit: {fileID: 1440997605250718, guid: ce6d02c28f61b2343bd8f9aef6912558, type: 2}
+  babySucker: {fileID: 1027774551338050, guid: 325f4b624cfe35a49a31f0351e14b18e, type: 2}
+  healthyPlantMaterial: {fileID: 2100000, guid: 5223cf0967a8c0143ac06910ccd99f96,
+    type: 2}
+  mediumPlantMaterial: {fileID: 2100000, guid: f71a1b9a49da75040acbb91b4c594ab0, type: 2}
+  badPlantMaterial: {fileID: 2100000, guid: fafba4cc9a22cf046a5b093791c6fa46, type: 2}
+  miniHappyWater: 10
+  maxHappyWater: 30
+  miniHappyNutrient: 0
+  maxHappyNutrient: 50
+  miniHappyNeigbours: 1
+  maxHappyNeigbours: 3
+  happyWaterConsumption: 3
+  okWaterConsumption: 2
+  badWaterConsumption: 1
+  happyNutrientConsumption: -3
+  okNutrientConsumption: -2
+  badNutrientConsumption: 0
+  miniFruitOk: 1
+  maxFruitOk: 2
+  miniFruitHappy: 2
+  maxFruitHappy: 4
+  miniSeedOk: 1
+  maxSeedOk: 3
+  miniSeedHappy: 2
+  maxSeedHappy: 5
+  miniCuttingOk: 1
+  maxCuttingOk: 3
+  miniCuttingHappy: 2
+  maxCuttingHappy: 5
+  replantsItself: 0
+  plantHappiness: 0
+  myMatureForm: {fileID: 0}
+  isMature: 0
+  isFruit: 0
+  myFruitsList: []
+  myCuttingList: []
+  lifetime: 12

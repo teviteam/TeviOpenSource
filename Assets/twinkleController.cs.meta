@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: f83218e0a0c99ce439ffeeef76853ed3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - twinklePrefab: {fileID: 1682942194017144, guid: 5c999f7aea642974b95cc81a79041444,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
