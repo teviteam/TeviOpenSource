@@ -1,17 +1,17 @@
-##Presentation
+## Presentation
 Tevi is a mobile video game for natural awareness inspired by the Eden Project. 
 It is being created by the MetaMakers Institute of Falmouth University’s Games Academy in partnership with the Eden Project. 
 As a part of MetaMakers Institute research project, it uses interactive evolutionary computation to simulate a garden. 
 The video game Tevi is also an experiment on using video games for natural heritage valorisation.
 
-##Acknowledgment
+## Acknowledgment
 Please copy this if you reuse part or the totality of this project:
 >The code used here is notably based on the experimental videogame Tevi, created by the MetaMakers Institute of Falmouth University. 
 >Project funded by the European Commission ERA Chair grant; an EPSRC Leadership Fellowship; and an EPSRC Next Step Digital Economy Hub grant.
 >Code written by: Edwige Lelievre, Giovanni Rubino and Tim Philipps.
 >Created in partnership with the Eden Project.
 
-##Requirements
+## Requirements
 What you will need to make Tevi fully work for you:
 -	Unity (free download, we used the version 2018.7.7f1)
 -	An online MYSQL database (5.7.25)
@@ -21,7 +21,7 @@ What you will need to make Tevi fully work for you:
 -	A plant (can be a leaf)
 If you want Pl@antnet API to work, you need online database and server so you can send them the url of your uploaded images.
 
-##Step by step guide
+## Step by step guide
 1/ Download the project. You can delete (or move) the “xx_Php_mysql” folder (in the "Assets" folder) where the .php and .sql files are stored as they are not needed in Unity. Open the project.
 Then create a “HIDDENdata.cs” script in which you will put your server and API information:
 
@@ -47,19 +47,19 @@ In the menu on top right, open the camera, it should display what your webcam se
 Well done, you did it!
 
 ----------
-##Contacts
+## Contacts
 edwige.lelievre@gmail.com @edwigelel on Twitter
 rubinogiov@gmail.com @GioBorrows on Twitter
 timphillipsgames@gmail.com @tpcphillips on Twitter
 
-##Requirements without plant recognition
+## Requirements without plant recognition
 What you will need to make Tevi work without plant recognition:
 -	Unity (free download, we used the version 2018.7.7f1)
 -	An MYSQL database (5.7.25) : can be local
 -	An server running PHP with writing rights (5.6.39) : can be local
 
 
-##Research and development team
+## Research and development team
 Dr. Edwige Lelièvre, MetaMakers Institute Research Fellow: Team leader, game design, programming, graphic design
 Giovanni Rubino, MetaMakers Institute Game designer: Game design, programming, playtesting, graphic design
 Tim Phillips, MetaMakers Institute Game designer: Game design, programming, playtesting
@@ -67,7 +67,7 @@ Dr. Joan Casas Roma MetaMakers Institute Research Fellow: Music, game design
 Blanca Perez Ferrer, MetaMakers Institute Curator: Graphic design, playtesting, game design
 Dr. Rob Saunders, Director of the MetaMakers Institute: Scientific supervision
 
-##Advisors at Eden
+## Advisors at Eden
 Dr. Jo Elworthy, director of Interpretation
 Chris Bisson, policy development manager, horticulturist
 Catherine Cutler, biome supervisor, horticulturist
@@ -77,7 +77,7 @@ Chris Jenord
 Lucy Wenger
 Gabriela Gilkes
 
-##Advisors at Falmouth University
+## Advisors at Falmouth University
 Dr. Pr. Tanya Krzywinska
 Ché Wilbraham
 Dr. Edward Powley
@@ -86,7 +86,7 @@ Heidi Ball
 Terry Greer
 Dr. Rory Summerley
 
-##External contractors
+## External contractors
 Searra Dodds: UI art
 Pheobe Herring: artworks
 Troy Atkinson: Ios port
